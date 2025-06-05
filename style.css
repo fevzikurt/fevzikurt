@@ -1,0 +1,93 @@
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #111;
+  color: #eee;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1594737625785-c715a640f8b5?auto=format&fit=crop&w=1650&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff4b2b;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.hero {
+  margin-top: 40px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+section {
+  background-color: #1e1e1e;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 5px solid #ff4b2b;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+section h2 {
+  color: #ff4b2b;
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}
